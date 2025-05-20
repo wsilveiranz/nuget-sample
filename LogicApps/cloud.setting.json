@@ -2,8 +2,9 @@
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "APP_KIND": "workflowapp",
+    "FUNCTIONS_INPROC_NET8_ENABLED": "1",
     "ProjectDirectoryPath": "c:\\Dev\\nuget-sample\\LogicApps",
     "WORKFLOWS_TENANT_ID": "72f988bf-86f1-41af-91ab-2d7cd011db47",
     "WORKFLOWS_SUBSCRIPTION_ID": "80d4fe69-c95b-4dd2-a938-9250f1c8ab03",
